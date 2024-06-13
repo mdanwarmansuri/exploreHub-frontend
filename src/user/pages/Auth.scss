@@ -1,0 +1,122 @@
+.authentication {
+  width: 50%;
+  max-width: 30rem;
+  min-width: 18em;
+  border-right: 1px solid lightgray;
+  border-radius: 0px;
+  // margin: 7rem auto;
+  /* text-align: center; */
+  box-shadow: none;
+  
+  &__header {
+    color: white;
+    text-align: center;
+  }
+
+  form {
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  input {
+    padding: 6px;
+    border-radius: 3px;
+  }
+}
+
+.switch-button {
+  border: none;
+  padding: 0;
+  background-color: white;
+  color: #6610f2;
+  font-size: medium;
+  padding: 0.5rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.side-image{
+ 
+  // border:5px solid red;
+  background-image: url('../../../public/login.jpg');
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+  width:50%;
+  min-height:75vh;
+  overflow: hidden;
+
+}
+
+.container{
+  margin: auto;
+  margin-top:4rem;
+  display:flex;
+  border: 1px solid lightgray;
+  width:80%;
+  min-height:76vh;
+  // padding:2rem 1rem;
+  border-radius: 4px;
+  min-width: 40rem;
+  margin-bottom: 3rem;
+
+}
+
+.center{
+  margin-top: 1rem;
+}
+
+@media(max-width:765px){
+  .side-image{
+    display: none;
+
+  }
+  .container{
+    border:none;
+    min-width: 18em;
+    padding:0px;
+    // margin: auto;
+  }
+  .authentication{
+    border: 1px solid lightgray;
+    width:95%;
+    margin: auto;
+  }
+}
+
+.signup-container{
+  margin: auto;
+  margin-top:7rem;
+  border: 1px solid lightgray;
+  width:40%;
+  min-height:76vh;
+  // padding:2rem 1rem;
+  border-radius: 4px;
+  min-width: 35rem;
+  margin-bottom: 3rem;
+  
+}
+
+.signup-container .signup-authentication{
+  width:100%;
+  border:none;
+  box-shadow: none;
+
+  h2{
+    text-align: center;
+  }
+
+  input {
+    padding: 6px;
+    border-radius: 3px;
+  }
+
+  .recaptcha{
+    width:60%;
+    margin:auto;
+  }
+}
+

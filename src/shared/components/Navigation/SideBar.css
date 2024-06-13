@@ -1,0 +1,54 @@
+.side-bar-item{
+    display: flex;
+}
+
+.side-bar a{
+    text-decoration: none;
+    color:black;
+}
+
+.side-bar-item img{
+    width: 25px;
+    height:25px;
+    margin-right:0.5rem;
+}
+
+/* Style for the sidebar container */
+.side-bar {
+    position: fixed;
+    /* box-shadow: -2px 0 5px rgba(0, 0, 0, 0.1);  */
+    top: 0;
+    left: 0;
+    height: 100vh;
+    border-right: 1px solid lightgray;
+  
+    
+    width: 20%;
+    /* background-color: #333;
+    color: white; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* padding-top: ; */
+   
+    padding-top: 6rem;
+    padding-left:0rem;
+    box-sizing: border-box;
+
+  }
+
+  /* Style for each item in the sidebar */
+  .side-bar-item {
+    width: 80%;
+    padding: 1.5rem 0.5rem ;
+    text-align: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+
+  .side-bar a:hover,.side-bar a:active{
+    color:blue;
+  }
+
+
+  

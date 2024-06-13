@@ -1,0 +1,27 @@
+.connections-list{
+    display:flex;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+    justify-content: space-around;
+
+    .u-item{
+        background-image: linear-gradient(to bottom right,#2980B9,#6DD5FA);
+        text-decoration: none;
+        width:35%;
+        border-radius: 3px;
+        
+
+        .connect-button{
+            text-align: center;
+            margin: auto;
+            width:6rem;
+            margin-top:1rem;
+            margin-bottom: 1rem;
+        }
+
+        h3,h4{
+            color:white;
+        }
+    }
+    
+}

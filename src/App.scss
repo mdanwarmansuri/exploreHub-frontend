@@ -1,0 +1,18 @@
+main{
+    display: flex;
+
+    .routes{
+     width:67%;
+     margin: auto;
+    }
+
+    .sidebar {
+        min-width:20%;
+       
+    }
+    
+    .rightbar{
+        min-width: 23%;
+        
+    }
+}

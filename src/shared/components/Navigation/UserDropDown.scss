@@ -1,0 +1,50 @@
+.user-dropdown {
+  position: absolute;
+  right: 0;
+  background-color: white; // Ensure the background color is set
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 7; // Use a higher z-index if necessary
+  color: black;
+  width: 8rem;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+  cursor: pointer;
+  padding: 0.5rem;
+
+  button {
+    background: none;
+    border: none;
+    // padding: 10px;
+    cursor: pointer;
+    // width: 100%;
+    // text-align: left;
+    font-size: medium;
+    margin-top: 0.7rem;
+    margin-bottom: 0.5rem;
+  }
+
+  a {
+    color: black;
+    margin-top: 0.5rem;
+
+    &:hover,
+    button:hover {
+      color: blue;
+      background-color: white;
+    }
+
+    &:active,
+    &.active {
+      color: blue;
+      background-color: white;
+    }
+  }
+}
+
+.nav-item-dropdown {
+  position: relative;
+  cursor: pointer;
+}
